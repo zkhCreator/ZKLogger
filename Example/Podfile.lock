@@ -1,0 +1,16 @@
+PODS:
+  - ZKLogger (0.1.0)
+
+DEPENDENCIES:
+  - ZKLogger (from `../`)
+
+EXTERNAL SOURCES:
+  ZKLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZKLogger: 291311a9f2bc8c2ab7e032caeebd9b909edefe2d
+
+PODFILE CHECKSUM: 1de84b44b7227bfcec7a03637ea5cb3ca60fe18d
+
+COCOAPODS: 1.11.2

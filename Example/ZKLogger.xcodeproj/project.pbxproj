@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1B8CED95F77D600B285BA5DA /* Pods_ZKLogger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0847305F09FBE1BDC143BE0 /* Pods_ZKLogger_Example.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C945E1998B9B03EC83B6D363 /* Pods_ZKLogger_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E5049560963F1A92BB9DF1 /* Pods_ZKLogger_Tests.framework */; };
+		E8997C61272CD94A00F72B83 /* LoggerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8997C60272CD94A00F72B83 /* LoggerUIView.swift */; };
+		E8997C63272CD9B000F72B83 /* LoggerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8997C62272CD9B000F72B83 /* LoggerApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BA69393C222DC06919123E /* ZKLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZKLogger.podspec; path = ../ZKLogger.podspec; sourceTree = "<group>"; };
+		00BA69393C222DC06919123E /* ZKLogger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZKLogger.podspec; path = ../ZKLogger.podspec; sourceTree = "<group>"; };
 		26594449C125C3DD5F0DEFD1 /* Pods-ZKLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLogger_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZKLogger_Tests/Pods-ZKLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4744B940433831C39F40EED2 /* Pods-ZKLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLogger_Example.release.xcconfig"; path = "Target Support Files/Pods-ZKLogger_Example/Pods-ZKLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C60795E504B1D7D5385C1C2 /* Pods-ZKLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLogger_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZKLogger_Example/Pods-ZKLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53E6CC3E05D7E201076A4173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53E6CC3E05D7E201076A4173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZKLogger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKLogger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ZKLogger_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKLogger_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6FB880F2D1F16FF0D155F7A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FB880F2D1F16FF0D155F7A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B029DABE4898ED5FD692B72B /* Pods-ZKLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKLogger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZKLogger_Tests/Pods-ZKLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0847305F09FBE1BDC143BE0 /* Pods_ZKLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E5049560963F1A92BB9DF1 /* Pods_ZKLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8997C5F272CD94A00F72B83 /* ZKLogger_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZKLogger_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8997C60272CD94A00F72B83 /* LoggerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerUIView.swift; sourceTree = "<group>"; };
+		E8997C62272CD9B000F72B83 /* LoggerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +85,6 @@
 				B029DABE4898ED5FD692B72B /* Pods-ZKLogger_Tests.debug.xcconfig */,
 				26594449C125C3DD5F0DEFD1 /* Pods-ZKLogger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +112,12 @@
 		607FACD21AFB9204008FA782 /* Example for ZKLogger */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				E8997C60272CD94A00F72B83 /* LoggerUIView.swift */,
+				E8997C62272CD9B000F72B83 /* LoggerApp.swift */,
+				E8997C5F272CD94A00F72B83 /* ZKLogger_Example-Bridging-Header.h */,
 			);
 			name = "Example for ZKLogger";
 			path = ZKLogger;
@@ -213,7 +211,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1300;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -331,8 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E8997C61272CD94A00F72B83 /* LoggerUIView.swift in Sources */,
+				E8997C63272CD9B000F72B83 /* LoggerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,11 +468,15 @@
 			baseConfigurationReference = 4C60795E504B1D7D5385C1C2 /* Pods-ZKLogger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ZKLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZKLogger/ZKLogger_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +487,14 @@
 			baseConfigurationReference = 4744B940433831C39F40EED2 /* Pods-ZKLogger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ZKLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZKLogger/ZKLogger_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -507,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B029DABE4898ED5FD692B72B /* Pods-ZKLogger_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26594449C125C3DD5F0DEFD1 /* Pods-ZKLogger_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
