@@ -20,6 +20,16 @@ it, simply add the following line to your Podfile:
 pod 'ZKLogger'
 ```
 
+## Changelog
+
+### 1.1.0
+
+support domain for filter log
+
+### 1.0.0
+
+create base framework
+
 ## Author
 
 zkhCreator, zkh90644@gmail.com
