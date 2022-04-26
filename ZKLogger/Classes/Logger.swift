@@ -21,6 +21,7 @@ public protocol LoggerAOPDelegate {
 
 public struct Logger {
     public static let shared = Logger()
+    public var aopBlock: ((ErrorState, String?, String, String, String, Int)->())?
     public var aopDelegate: LoggerAOPDelegate?
     // MARK: - Class method
     public static func logInfo(_ message: String?, domain: String = "", file: String = #file, function: String = #function, line: Int = #line) {
@@ -77,5 +78,6 @@ public struct Logger {
     private func log(_ message: String?, domain: String, level: ErrorState, file: String, function: String, line: Int) {
         print("**\(level.rawValue):** domain:\(domain) file: \(file):\(line), function: \(function), message: \(message ?? "")")
         self.aopDelegate?.logAOP(state: level, message: message, domain: domain, file: file, function: function, line: line)
+        self.aopBlock?(level, message, domain, file, function, line)
     }
 }

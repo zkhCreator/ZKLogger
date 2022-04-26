@@ -1,6 +1,6 @@
 {
   "name": "ZKLogger",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "summary": "A short description of ZKLogger.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zkhCreator/ZKLogger",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zkhCreator/ZKLogger.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "9.0"

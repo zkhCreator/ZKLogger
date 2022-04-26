@@ -20,7 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'ZKLogger'
 ```
 
+## Update To Trunk
+
 ## Changelog
+
+### 1.2.0
+
+support closure for aop
 
 ### 1.1.0
 

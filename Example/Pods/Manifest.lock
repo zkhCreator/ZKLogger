@@ -1,5 +1,5 @@
 PODS:
-  - ZKLogger (0.1.0)
+  - ZKLogger (1.1.0)
 
 DEPENDENCIES:
   - ZKLogger (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZKLogger: 291311a9f2bc8c2ab7e032caeebd9b909edefe2d
+  ZKLogger: bd224f26a6c1fcc358d1e1903fbcce7721c11594
 
 PODFILE CHECKSUM: 1de84b44b7227bfcec7a03637ea5cb3ca60fe18d
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
