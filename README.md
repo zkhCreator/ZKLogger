@@ -22,6 +22,13 @@ pod 'ZKLogger'
 
 ## Update To Trunk
 
+1. update code
+2. merge to master
+3. update podspec version
+4. run `pod trunk push ZKLogger.podspec --allow-warnings`
+
+PS: if trunk session not exist, you can register by `pod trunk register your_mail your_name`
+
 ## Changelog
 
 ### 1.2.0
