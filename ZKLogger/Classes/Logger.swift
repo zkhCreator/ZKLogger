@@ -20,9 +20,18 @@ public protocol LoggerAOPDelegate {
 }
 
 public struct Logger {
-    public static let shared = Logger()
+    public static var shared = Logger()
     public var aopBlock: ((ErrorState, String?, String, String, String, Int)->())?
     public var aopDelegate: LoggerAOPDelegate?
+    
+    public mutating func setupBlock(block: ((ErrorState, String?, String, String, String, Int)->())?) {
+        self.aopBlock = block
+    }
+    
+    public mutating func setupDelegate(delegate: LoggerAOPDelegate?) {
+        self.aopDelegate = delegate
+    }
+    
     // MARK: - Class method
     public static func logInfo(_ message: String?, domain: String = "", file: String = #file, function: String = #function, line: Int = #line) {
         Logger.shared.log(message, domain: domain, level: .info, file: file, function: function, line: line)
