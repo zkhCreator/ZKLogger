@@ -5,7 +5,7 @@
 //  Created by zkhCreator on 2021/10/30.
 //
 
-import UIKit
+import Foundation
 
 public enum ErrorState: String {
     case info = "INFO"
